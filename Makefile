@@ -6,12 +6,12 @@
 #    By: albaud <albaud@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/18 13:07:44 by albaud            #+#    #+#              #
-#    Updated: 2023/07/25 13:51:19 by albaud           ###   ########.fr        #
+#    Updated: 2023/07/25 13:54:06 by albaud           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS 		= ${wildcard srcs/*.c srcs/*/*.c srcs/*/*/*.c}
-OBJS		= $(patsubst libs/%.c, objs/%.o, $(SRCS))
+SRCS 		= ${wildcard main.c srcs/*.c srcs/*/*.c srcs/*/*/*.c}
+OBJS		= $(patsubst srcs/%.c, objs/%.o, $(SRCS))
 NAME 		= main
 CC			= gcc
 CFLAGS		= -g3 -fsanitize=address -Wall -Wextra -Werror
