@@ -6,13 +6,13 @@
 /*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/25 13:47:43 by albaud            #+#    #+#             */
-/*   Updated: 2023/07/25 13:52:08 by albaud           ###   ########.fr       */
+/*   Updated: 2023/07/25 13:57:31 by albaud           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef MAIN_H
 # define MAIN_H
 
-# include "libalbaud/libs.h"
+# include "../libalbaud/libs.h"
 
 #endif
