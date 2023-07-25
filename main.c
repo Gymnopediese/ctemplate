@@ -6,14 +6,14 @@
 /*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/25 13:48:14 by albaud            #+#    #+#             */
-/*   Updated: 2023/07/25 13:48:45 by albaud           ###   ########.fr       */
+/*   Updated: 2023/07/25 13:53:24 by albaud           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lem_in.h"
+#include "main.h"
 
 int	main(void)
 {
-	print("Hello World\n");
+	print("Hello {s}", "World");
 	return (0);
 }
